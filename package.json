@@ -1,0 +1,21 @@
+{
+  "name": "phaser3-webpack-es6-dev-starter",
+  "version": "1.0.0",
+  "description": "A project starter for developing Phaser 3 games using Webpack and ES6.",
+  "repository": "https://www.github.com/snowbillr/phaser3-webpack-es6-dev-starter",
+  "author": "Bill Reed",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "babel-core": "6",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.0.0",
+    "copy-webpack-plugin": "^4.5.1",
+    "raw-loader": "^0.5.1",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.0.0"
+  },
+  "dependencies": {
+    "phaser": "^3.0.0"
+  }
+}
