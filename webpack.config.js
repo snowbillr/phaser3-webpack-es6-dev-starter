@@ -34,10 +34,6 @@ module.exports = {
     ]
   },
 
-  devServer: {
-    contentBase: path.resolve(__dirname, 'dist'),
-  },
-
   plugins: [
     new webpack.DefinePlugin({
       'CANVAS_RENDERER': JSON.stringify(true),
@@ -57,5 +53,9 @@ module.exports = {
       name: 'production-dependencies',
       filename: 'production-dependencies.bundle.js'
     }),
-  ]
+  ],
+
+  devServer: {
+    contentBase: path.resolve(__dirname, 'dist'),
+  }
 }
