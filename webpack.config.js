@@ -24,12 +24,6 @@ module.exports = {
             presets: ['env']
           }
         }
-      },
-      {
-        test: [ /\.vert$/, /\.frag$/ ],
-        use: {
-          loader: 'raw-loader'
-        }
       }
     ]
   },
@@ -50,8 +44,8 @@ module.exports = {
       }
     ]),
     new webpack.DefinePlugin({
-      'CANVAS_RENDERER': JSON.stringify(true),
-      'WEBGL_RENDERER': JSON.stringify(true)
+      'typeof CANVAS_RENDERER': JSON.stringify(true),
+      'typeof WEBGL_RENDERER': JSON.stringify(true)
     }),
     new webpack.optimize.CommonsChunkPlugin({
       name: 'production-dependencies',
