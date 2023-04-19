@@ -4,7 +4,7 @@ This is the final version of the project we create in https://snowbillr.github.i
 
 For a guide on the concepts included in this project and how to build it from scratch, take a look at [the blog post](https://snowbillr.github.io/blog/2018-04-09-a-modern-web-development-setup-for-phaser-3/).
 
-## Using This Project
+## Using The suitable example Project
 
 1. Make a directory somewhere in your file system where you want to keep your project.
 1. `cd` into that directory from the command line.
